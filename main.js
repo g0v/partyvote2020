@@ -96,22 +96,22 @@ app.controller('MainCtrl', function ($scope, $http, screenSize) {
       no: 2, id: 'pfp', name: '親民黨', enabled: true, partyno: "090"
     },
     {
-      no: 3, id: 'ftp', name: '自由台灣黨', partyno: "272"
+      no: 3, id: 'ftp', name: '自由台灣黨', disabled: true, partyno: "272"
     },
     {
-      no: 4, id: 'ppup', name: '和平鴿聯盟黨', partyno: "266"
+      no: 4, id: 'ppup', name: '和平鴿聯盟黨', disabled: true, partyno: "266"
     },
     {
-      no: 5, id: 'mcfap', name: '軍公教聯盟黨', partyno: "258"
+      no: 5, id: 'mcfap', name: '軍公教聯盟黨', disabled: true, partyno: "258"
     },
     {
-      no: 6, id: 'mkt', name: '民國黨', partyno: "268"
+      no: 6, id: 'mkt', name: '民國黨', disabled: true, partyno: "268"
     },
     {
-      no: 7, id: 'fhl', name: '信心希望聯盟', partyno: "283"
+      no: 7, id: 'fhl', name: '信心希望聯盟', disabled: true, partyno: "283"
     },
     {
-      no: 8, id: 'up', name: '中華統一促進黨', partyno: "113"
+      no: 8, id: 'up', name: '中華統一促進黨', disabled: true, partyno: "113"
     },
     {
       no: 9, id: 'kmt', name: '中國國民黨', enabled: true, partyno: "001"
@@ -123,26 +123,62 @@ app.controller('MainCtrl', function ($scope, $http, screenSize) {
       no: 11, id: 'npp', name: '時代力量', enabled: true, partyno: "267"
     },
     {
-      no: 12, id: 'cct', name: '大愛憲改聯盟', partyno: "134"
+      no: 12, id: 'cct', name: '大愛憲改聯盟', disabled: true, partyno: "134"
     },
     {
-      no: 13, id: 'sdp', name: '綠黨與社民黨聯盟', enabled: true, partyno: "281"
+      no: 13, id: 'sdp', name: '綠黨與社民黨聯盟', disabled: true, partyno: "281"
     },
     {
-      no: 14, id: 'ti', name: '台灣獨立黨', partyno: "273"
+      no: 14, id: 'ti', name: '台灣獨立黨', disabled: true, partyno: "273"
     },
     {
-      no: 15, id: 'npsu', name: '無黨團結聯盟', partyno: "106"
+      no: 15, id: 'npsu', name: '無黨團結聯盟', disabled: true, partyno: "106"
     },
     {
       no: 16, id: 'np', name: '新黨', partyno: "074"
     },
     {
-      no: 17, id: 'nhsa', name: '健保免費連線', partyno: "189"
+      no: 17, id: 'nhsa', name: '健保免費連線', disabled: true, partyno: "189"
     },
     {
-      no: 18, id: 'tp', name: '樹黨', partyno: "259"
-    }
+      no: 18, id: 'tp', name: '樹黨', disabled: true, partyno: "259"
+    },
+    {
+      no: 19, id: 'cpa', name: '國會政黨聯盟', partyno: "341"
+    },
+    {
+      no: 20, id: 'ifu', name: '宗教聯盟', partyno: "319"
+    },
+    {
+      no: 21, id: 'tsp', name: '台灣基進', partyno: "303"
+    },
+    {
+      no: 22, id: 'labor', name: '勞動黨', partyno: "015"
+    },
+    {
+      no: 23, id: 'green', name: '綠黨', partyno: "079"
+    },
+    {
+      no: 24, id: 'tpp', name: '台灣民眾黨', enabled: true, partyno: "350"
+    },
+    {
+      no: 25, id: 'trp', name: '台灣維新', partyno: "356"
+    },
+    {
+      no: 26, id: 'tapp', name: '台澎黨', partyno: "355"
+    },
+    {
+      no: 27, id: 'fa', name: '喜樂島聯盟', partyno: "348"
+    },
+    {
+      no: 28, id: 'uaa', name: '合一行動聯盟', partyno: "342"
+    },
+    {
+      no: 29, id: 'tapa', name: '一邊一國行動黨', partyno: "352"
+    },
+    {
+      no: 30, id: 'sfp', name: '安定力量', partyno: "342"
+    },
   ];
   $scope.parties = {};
   $scope.showVideo = false;
