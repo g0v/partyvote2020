@@ -111,7 +111,7 @@ app.controller('MainCtrl', function ($scope, $http, screenSize) {
       no: 7, id: 'fhl', name: '信心希望聯盟', disabled: true, partyno: "283"
     },
     {
-      no: 8, id: 'up', name: '中華統一促進黨', disabled: true, partyno: "113"
+      no: 8, id: 'up', name: '中華統一促進黨', partyno: "113"
     },
     {
       no: 9, id: 'kmt', name: '中國國民黨', enabled: true, partyno: "001"
